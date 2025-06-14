@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Khizr Tahseen | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">SYED <span>KHIZR TAHSEEN</span></a>
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <!-- Added fallback image source and removed fade-in to test visibility -->
+            <img src="profile.jpg" alt="Profile" class="hero-image" onerror="this.src='https://via.placeholder.com/200?text=Profile+Image'">
+            <h1 class="fade-in">Hi, I'm Syed Khizr Tahseen 👋</h1>
+            <p></p> <!-- Empty p tag, content will be added by JS -->
+            <!-- Removed inline style and fade-in to test visibility -->
+            <div class="hero-btns">
+                <a href="#" class="btn">📄 View Resume</a>
+                <a href=" https://www.linkedin.com/in/syed-khizr-tahseen-521256286/" class="btn btn-outline">🔗 LinkedIn</a>
+                <a href="https://github.com/SyedkTahseen" class="btn btn-outline">🐙 GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">🚀 Technical Arsenal</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Languages</h3>
+                    <ul class="skill-list">
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <ul class="skill-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Databases</h3>
+                    <ul class="skill-list">
+                        <li>Oracle</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">🎯 Highlight Project</h2>
+            <div class="project-card">
+                <img src="project.png" alt="Online Tech Event Registration System" class="project-image">
+                <div class="project-content">
+                    <h3>Online Tech Event Registration System</h3>
+                    <p>A web-based platform developed to streamline event registrations during college tech events. It manages participant data, validates entries, and provides confirmation for successful registration.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                    <div class="project-btns">
+                        <a href="https://github.com/SyedkTahseen/test" class="btn btn-outline">GitHub Repo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">📬 Let's Connect!</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>syedtahseen685@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <p>9704059830</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Location</h3>
+                            <p>Yanam, Puducherry, India</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href=" https://www.linkedin.com/in/syed-khizr-tahseen-521256286/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/SyedkTahseen" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="mailto:tahseensyed685@gmail.com" class="social-link">
+  <i class="fas fa-envelope"></i>
+</a>
+
+            </div>
+            <p class="copyright">© 2025 Syed Khizr Tahseen. Built with 💙 in HTML/CSS/JS.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
