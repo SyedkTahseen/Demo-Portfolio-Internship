@@ -18,7 +18,7 @@ body {
     color: var(--text-color);
     line-height: 1.6;
     background-color: var(--light-color);
-    padding-top: 80px; /* For fixed header */
+    padding-top: 58px; /* Reduced from 80px to bring hero closer to navbar */
 }
 
 a {
@@ -172,16 +172,18 @@ header.scrolled {
 
 /* Hero Section */
 #hero {
-    min-height: calc(100vh - 80px);
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: calc(100vh - 60px); /* Adjusted to account for reduced body padding */
     background: linear-gradient(135deg, rgba(44, 62, 80, 0.5), rgba(52, 152, 219, 0.4)), 
                 url('background.avif') no-repeat center/cover;
     color: white;
     text-align: center;
     position: relative;
     overflow: visible;
+    margin-top: 0; /* Ensure no extra top margin */
+    padding-top: 0; /* Remove any top padding */
 }
 
 .hero-content {

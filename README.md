@@ -5,6 +5,9 @@ Overview
 --------
 This is a personal portfolio website for Syed Khizr Tahseen, a B.Tech Information Technology student at PTU and an aspiring Full-Stack Web Developer. The website showcases my skills, projects, and contact information, designed with a modern and responsive layout to provide an engaging user experience.
 
+Visit the site : https://syedktahseen.github.io/portfolio/
+--------
+
 Features
 --------
 - Responsive Design: Fully responsive layout that works seamlessly on desktop, tablet, and mobile devices.
@@ -76,12 +79,6 @@ Future Improvements
 - Implement lazy loading for images to improve performance.
 
 
-Contact
--------
-For any inquiries or feedback, reach out to me at:
-- Email: syedtahseen685@gmail.com
-- Phone: 9704059830
-- Location: Yanam, Puducherry, India
 
 Note: What Was the Most Interesting or Challenging Part of This Task?
 --------------------------------------------------------------------
