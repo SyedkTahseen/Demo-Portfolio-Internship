@@ -6,6 +6,7 @@
     <title>Syed Khizr Tahseen | Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Playfair+Display:wght@400;700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -28,19 +29,19 @@
     </header>
 
     <!-- Hero Section -->
-    <section id="hero">
-        <div class="hero-content">
-            <!-- Added fallback image source and removed fade-in to test visibility -->
-            <img src="profile.jpg" alt="Profile" class="hero-image" onerror="this.src='https://via.placeholder.com/200?text=Profile+Image'">
-            <h1 class="fade-in">Hi, I'm Syed Khizr Tahseen 👋</h1>
-            <p></p> <!-- Empty p tag, content will be added by JS -->
-            <!-- Removed inline style and fade-in to test visibility -->
-            <div class="hero-btns">
-                <a href=" https://www.linkedin.com/in/syed-khizr-tahseen-521256286/" class="btn">🔗 LinkedIn</a>
-                <a href="https://github.com/SyedkTahseen" class="btn">🐙 GitHub</a>
-            </div>
+   <!-- Hero Section -->
+<section id="hero">
+    <div class="hero-content">
+        <img src="imgs/profile.jpg" alt="Profile" class="hero-image" onerror="this.src='https://via.placeholder.com/200?text=Profile+Image'">
+        <h1 class="fade-in">Hi, I'm Syed Khizr Tahseen 👋</h1>
+        <p class="bio-text"><span class="bio-typed-text"></span><span class="bio-cursor">&nbsp;</span></p>
+        <p class="typing-text">Aspiring <span class="typed-text-wrapper"><span class="typed-text-part1"></span><span class="typed-text-part2"></span></span><span class="cursor">&nbsp;</span></p>
+        <div class="hero-btns">
+            <a href="https://www.linkedin.com/in/syed-khizr-tahseen-521256286/" class="btn">🔗 LinkedIn</a>
+            <a href="https://github.com/SyedkTahseen" class="btn">🐙 GitHub</a>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Skills Section -->
     <section id="skills">
@@ -57,6 +58,7 @@
                         <li>C++</li>
                         <li>Java</li>
                         <li>Python</li>
+                        <li>PHP</li>
                     </ul>
                 </div>
                 <div class="skill-card">
@@ -68,6 +70,7 @@
                         <li>HTML5</li>
                         <li>CSS3</li>
                         <li>JavaScript</li>
+                        <li>React</li>
                     </ul>
                 </div>
                 <div class="skill-card">
@@ -76,8 +79,7 @@
                     </div>
                     <h3>Databases</h3>
                     <ul class="skill-list">
-                        <li>Oracle</li>
-                        <li>SQL</li>
+                        <li>MYSQL</li>
                     </ul>
                 </div>
             </div>
@@ -89,7 +91,7 @@
         <div class="container">
             <h2 class="section-title">🎯 Highlight Project</h2>
             <div class="project-card">
-                <img src="project.png" alt="Online Tech Event Registration System" class="project-image">
+                <img src="imgs/project.png" alt="Online Tech Event Registration System" class="project-image">
                 <div class="project-content">
                     <h3>Online Tech Event Registration System</h3>
                     <p>A web-based platform developed to streamline event registrations during college tech events. It manages participant data, validates entries, and provides confirmation for successful registration.</p>
@@ -142,21 +144,21 @@
                         </div>
                     </div>
                 </div>
-                <form class="contact-form" id="contactForm">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" class="form-control" required></textarea>
-                    </div>
-                    <button type="submit" class="btn">Send Message</button>
-                </form>
+        <form class="contact-form" id="contactForm">
+        <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" class="form-control" required>
+        </div>
+        <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" class="form-control" required>
+        </div>
+        <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" class="form-control" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+        </form>
             </div>
         </div>
     </section>
@@ -168,8 +170,8 @@
                 <a href=" https://www.linkedin.com/in/syed-khizr-tahseen-521256286/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
                 <a href="https://github.com/SyedkTahseen" class="social-link"><i class="fab fa-github"></i></a>
                 <a href="mailto:tahseensyed685@gmail.com" class="social-link">
-  <i class="fas fa-envelope"></i>
-</a>
+        <i class="fas fa-envelope"></i>
+        </a>
 
             </div>
             <p class="copyright">© 2025 Syed Khizr Tahseen. Built with 💙 in HTML/CSS/JS.</p>
