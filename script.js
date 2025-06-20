@@ -141,39 +141,6 @@ if (contactForm) {
     });
 }
 /* For Form Submission */
-// JavaScript to handle form submission
-    document.getElementById('contactForm').addEventListener('submit', async function(event) {
-      event.preventDefault(); // Prevent default form submission
-
-      // Collect form data
-      const formData = {
-        name: document.getElementById('name').value,
-        email: document.getElementById('email').value,
-        message: document.getElementById('message').value
-      };
-
-      // Google Apps Script endpoint
-      const url = 'https://script.google.com/macros/s/AKfycbzRYnkijR3cM7mhhIRayTkKecm0vuqmTZ3vTdTsRf7tLpBsvp4HfxYWgUFfbIB3RJ37eg/exec';
-
-      try {
-        // Send POST request to Google Apps Script
-        const response = await fetch(url, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify(formData),
-          mode: 'no-cors' // Required for Google Apps Script endpoints
-        });
-
-        // Since 'no-cors' mode limits response access, assume success if no error
-        alert('Form submitted successfully!');
-        document.getElementById('contactForm').reset(); // Clear the form
-      } catch (error) {
-        console.error('Error submitting form:', error);
-        alert('An error occurred while submitting the form. Please try again.');
-      }
-    });
 
 /* Scroll Animation */
 const fadeElements = document.querySelectorAll('section');
