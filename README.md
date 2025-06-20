@@ -6,7 +6,7 @@ Overview
 This is a personal portfolio website for Syed Khizr Tahseen, a B.Tech Information Technology student at PTU and an aspiring Full-Stack Web Developer. The website showcases my skills, projects, and contact information, designed with a modern and responsive layout to provide an engaging user experience.
 
 <p align="center">
-  <a href="https://syedktahseen.github.io/portfolio/" target="_blank">
+  <a href="https://syedktahseen.github.io/Demo-Portfolio-Internship/" target="_blank">
     <img src="https://img.shields.io/badge/🚀_View_Demo-0A66C2?style=for-the-badge&logo=github&logoColor=white&labelColor=101010&color=007ACC" alt="View Demo Button" style="height: 40px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
   </a>
 </p>
