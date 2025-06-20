@@ -47,9 +47,8 @@ Setup Instructions
      open index.html
      ```
    - Alternatively, use a local development server (e.g., VS Code Live Server extension) for a better development experience.
-3. Configure Contact Form:
-   - Ensure the Google Apps Script is deployed as a web app with access set to "Anyone" or "Anyone, even anonymous" to handle form submissions.
-   - The Google Apps Script should parse JSON data (name, email, message) and, for example, append it to a Google Sheet.
+3. Contact Form:
+   - For Contact Form i have added link with the google sheets when ever you try to contact me with the form then i can get the details of you in google sheets.
 4. Customize Content:
    - Update the profile image in index.html by replacing the src attribute of the .hero-image with your own image URL or local file path.
    - Modify the contact information in the #contact section to reflect your details.
